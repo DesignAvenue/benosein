@@ -29,17 +29,7 @@
             <div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-md-4 col-sm-6">
-						<div class="widget_services style-2 m-b40">
-							<ul>
-								<li class="active"><a href="all-service.html">ALL SERVICES</a> </li>
-								<li><a href="engine-diagnostics.html">ENGINE DIAGNOSTICS</a>  </li>
-								<li><a href="lube-oil-and-filters.html">LUBE OIL AND FILTERS</a>  </li>
-								<li><a href="belts-and-hoses.html">BELTS AND HOSES</a>  </li>
-								<li><a href="air-conditioning.html">AIR CONDITIONING</a> </li>
-								<li><a href="brake-repair.html">BRAKE REPAIR</a> </li>
-								<li><a href="tire-and-wheel-services.html">TIRE AND WHEEL SERVICES</a> </li>
-							</ul>
-						</div>
+						
 						<div class="widget">
 							<h4 class="widget-title">Get your brochures</h4>
 							<div class="download-file">
@@ -76,7 +66,8 @@
                                 <div class="dlab-box">
                                     <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic1.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="engine-diagnostics.html">Engine Diagnostics</a></h4>
+                                        <h4 class="dlab-title m-t20"><a href="engine-diagnostics.html">
+                                            SPRAY PAINTING</a></h4>
                                         <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
                                         <a href="#" class="site-button">More</a> 
 									</div>
@@ -86,7 +77,7 @@
                                 <div class="dlab-box">
                                     <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic2.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="lube-oil-and-filters.html">Lube Oil and Filters</a></h4>
+                                        <h4 class="dlab-title m-t20"><a href="lube-oil-and-filters.html">CHECK SUSPENSION</a></h4>
                                         <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
                                         <a href="#" class="site-button">More</a> 
 									</div>
@@ -96,7 +87,8 @@
                                 <div class="dlab-box">
                                 <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic3.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="belts-and-hoses.html">Belts and Hoses</a></h4>
+                                        <h4 class="dlab-title m-t20"><a href="belts-and-hoses.html">
+                                            WHEEL CHECKING</a></h4>
                                         <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
                                         <a href="#" class="site-button">More</a> 
 									</div>
@@ -104,7 +96,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 m-b30">
                                 <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="images/our-work/pic4.jpg" alt=""></a> </div>
+                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic4.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
                                         <h4 class="dlab-title m-t20"><a href="air-conditioning.html">Air Conditioning</a></h4>
                                         <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
@@ -114,7 +106,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 m-b30">
                                 <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="images/our-work/pic5.jpg" alt=""></a> </div>
+                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic5.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
                                         <h4 class="dlab-title m-t20"><a href="brake-repair.html">Brake Repair </a></h4>
                                         <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
@@ -124,7 +116,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 m-b30">
                                 <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="images/our-work/pic6.jpg" alt=""></a> </div>
+                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic6.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
                                         <h4 class="dlab-title m-t20"><a href="tire-and-wheel-services.html">Tire and Wheel Services</a></h4>
                                         <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>

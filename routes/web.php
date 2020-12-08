@@ -24,7 +24,8 @@ Route::get('about',[PagesController::class, 'about'])->name("about");
 Route::get('bentows',[PagesController::class, 'bentows'])->name("bentows");
 Route::get('service',[PagesController::class, 'service'])->name("service");
 Route::get('contact',[PagesController::class, 'contact'])->name("contact");
-Route::get('news',[PagesController::class, 'news'])->name("news");
+Route::get('ourwork',[PagesController::class, 'ourwork'])->name("ourwork");
+Route::post('contact',[PagesController::class, 'mail'])->name("mail");
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

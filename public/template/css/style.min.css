@@ -4,11 +4,11 @@
 @import url(../plugins/themify/themify-icons.css);
 @import url(../plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css);
 @import url(../plugins/bootstrap-select/bootstrap-select.min.css);
-@import url(../plugins/magnific-popup/magnific-popup.css);
-@import url(../plugins/scroll/scrollbar.css);
-@import url(../plugins/animate/animate.css);
-@import url(../plugins/lightgallery/css/lightgallery.min.css);
-@import url(../plugins/switcher/css/switcher.css);
+/* @import url(../plugins/magnific-popup/magnific-popup.css); */
+/* @import url(../plugins/scroll/scrollbar.css); */
+/* @import url(../plugins/animate/animate.css); */
+/* @import url(../plugins/lightgallery/css/lightgallery.min.css); */
+/* @import url(../plugins/switcher/css/switcher.css); */
 body {
     background-color: #fff;
     font-family: Hind, sans-serif;
@@ -2838,7 +2838,7 @@ blockquote:before {
 }
 .header-nav .nav.nav-style > li.active:after {
     content: "";
-    background-image: url(../images/nav-active.png);
+    /* background-image: url(../images/nav-active.png); */
     height: 100%;
     width: 150%;
     display: block;
@@ -7660,7 +7660,7 @@ footer .widget_getintuch i {
     height: 5px;
     width: 100%;
     background-color: #efbb20;
-    background-image: url(../images/line.png);
+    /* background-image: url(../images/line.png); */
     background-position: top;
     background-repeat: repeat-x;
 }
@@ -8918,21 +8918,21 @@ ol.commentlist li .star-rating {
     top: 0;
     opacity: 1;
     z-index: 9999;
-    background-image: url(../images/loading.gif);
+    background-image: url(../images/Loader.gif);
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: center;
 }
 #loading-area.loader1 {
-    background-image: url(../images/loader1.gif);
+    background-image: url(../images/Loader.gif);
     background-size: 350px;
 }
 #loading-area.loader2 {
-    background-image: url(../images/loader2.gif);
+    background-image: url(../images/Loader.gif);
     background-size: 350px;
 }
 #loading-area.loader3 {
-    background-image: url(../images/loader3.gif);
+    background-image: url(../images/Loader.gif);
     background-size: 280px;
 }
 .date-style-3 .post-date,

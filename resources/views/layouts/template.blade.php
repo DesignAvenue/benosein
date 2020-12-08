@@ -88,20 +88,31 @@
                     <!-- main nav -->
                     <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                         <ul class="nav navbar-nav nav-style">
-                            <li class="active"> <a href="/">Home</a>
-                            </li>
-                            <li> <a href="/service">Service</a>
-                              
-                            </li>
-                            <li> <a href="/about">About</a>
-                              
-                            </li>
-                            <li> <a href="/news">News</a>
-                              
-                            </li>
-                            <li> <a href="/contact">Contact Us</a>
-                              
-                            </li>
+                            @if (Route::current()->getName() == "/")
+                            <li class="active"> <a href="/">Home</a> </li>
+                                @else
+                                <li> <a href="/">Home</a> </li>
+                                @endif
+                                @if (Route::current()->getName() == "about")
+                            <li class="active"> <a href="/about">About</a></li>
+                                @else
+                                <li> <a href="/about">About</a> </li>
+                                @endif
+                                @if (Route::current()->getName() == "service")
+                            <li class="active"> <a href="/service">Service</a></li>
+                                @else
+                                <li> <a href="/service">Service</a> </li>
+                                @endif
+                                @if (Route::current()->getName() == "ourwork")
+                            <li class="active"> <a href="/ourwork">Our Work</a></li>
+                            @else
+                                <li> <a href="/ourwork">Our Work</a> </li>
+                             @endif
+                             @if (Route::current()->getName() == "contact")
+                            <li class="active"> <a href="/contact">Contact Us</a></li>
+                            @else
+                                <li> <a href="/contact">Contact Us</a> </li>
+                            @endif
                         </ul>
                     </div>
                 </div>
@@ -238,10 +249,11 @@
                                 <div class="dlab-separator bg-white style-skew"></div>
                             </div>
                             <ul>
-                                <li><i class="ti-location-pin"></i><strong>address</strong> demo address #8901 Marmora Road Chi Minh City, Vietnam </li>
-                                <li><i class="ti-mobile"></i><strong>phone</strong>0800-123456 (24/7 Support Line)</li>
-                                <li><i class="ti-printer"></i><strong>FAX</strong>(123) 123-4567</li>
-                                <li><i class="ti-email"></i><strong>email</strong>info@demo.com</li>
+                                <li><i class="ti-location-pin"></i><strong>address</strong> 204 Gravesend road Harare ,Zimbabwe</li>
+                                <li><i class="ti-mobile"></i><strong>phone</strong>+263 772 211 014</li>
+                                <li><i class="ti-mobile"></i><strong>phone</strong>+263 772 269124</li>
+                                <li><i class="ti-email"></i><strong>email</strong>adminsales@benosien.co.zw</li>
+                                <li><i class="ti-email"></i><strong>email</strong>tows@benosien.co.zw</li>
                             </ul>
                         </div>
                     </div>
