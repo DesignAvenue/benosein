@@ -18,7 +18,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE -->
-	<title>Auto Care - Car Services Template</title>
+	<title>Benosien Motors Panel Beating & Spray Painting & Towing</title>
 	
 	<!-- MOBILE SPECIFIC -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,11 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('template/css/templete.min.css')}}">
 	<link class="skin"  rel="stylesheet" type="text/css" href="{{asset('template/css/skin/skin-1.css')}}">
 	<!-- Revolution Slider Css -->
-	 {{-- <link rel="stylesheet" type="text/css" href="{{asset('template/plugins/revolution/css/revolution.min.css')}}">  --}}
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-2976c9c5-05b7-4ac0-8dd3-94f2dd71865a"></div>
+
+
+    {{-- <link rel="stylesheet" type="text/css" href="{{asset('template/plugins/revolution/css/revolution.min.css')}}">  --}}
 </head>
 <body id="bg"><div id="loading-area"></div>
 <div class="page-wraper">
@@ -128,36 +132,7 @@
     <!-- Content END-->
     <!-- Footer -->
     <footer class="site-footer">
-        <!-- newsletter part -->
-        <div class="bg-primary dlab-newsletter">
-            <div class="container equal-wraper">
-				<form class="dzSubscribe" action="https://autocare.dexignlab.com/xhtml/script/mailchamp.php" method="post">
-					<div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="icon-bx-wraper equal-col p-t30 p-b20 left">
-                                <div class="icon-lg text-white radius">
-									<i class="ti-email"></i>
-								</div>
-                                <div class="icon-content"> <strong class="text-black text-uppercase font-18">Subscribe</strong>
-                                    <h2 class="dlab-tilte text-uppercase">Our Newsletter</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="dzSubscribeMsg"></div>
-							<div class="input-group equal-col p-t40  p-b10">
-                                <input name="dzEmail" required placeholder="Email address" required="required" class="form-control" type="text">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 offset-lg-1 offset-md-1">
-                            <div class="equal-col p-t40 p-b10 skew-subscribe">
-                                <button name="submit" value="Submit" type="submit" class="site-button-secondry button-skew z-index1"> <span>Subscribe</span><i class="fa fa-angle-right"></i> </button>
-                            </div>
-                        </div>
-					</div>
-				</form>
-            </div>
-        </div>
+        
         <!-- footer top part -->
         <div class="footer-top">
             <div class="container">
@@ -165,18 +140,16 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
                         <div class="widget widget_about">
                             <div class="logo-footer"><img src="{{asset('template/images/loggest.png')}}" alt=""></div>
-                            <p><strong>Auto Care</strong> ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat . wisi enim ad minim veniam, quis tation. sit amet, consec tetuer.ipsum dolor sit amet, consectetuer.</p>
+                            <p><strong>Benosien Motors</strong> offers a one stop auto body repair services. Our business scope covers from passenger vehicles to commercial vehicles .We have managed to provide services that have always satisfied our Customers due to well Advanced and modernized equipment used by well skilled personnel In our workshop</p>
                             <ul class="dlab-social-icon dez-border">
-                                <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
+                                <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
                                 <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
                         <div class="widget recent-posts-entry">
-                            <h4 class="m-b15 text-uppercase">Recent Post</h4>
+                            <h4 class="m-b15 text-uppercase">Our Work</h4>
                             <div class="dlab-separator-outer m-b10">
                                 <div class="dlab-separator bg-white style-skew"></div>
                             </div>
@@ -233,12 +206,10 @@
                                 <div class="dlab-separator bg-white style-skew"></div>
                             </div>
                             <ul>
-                                <li><a href="/">Engine Diagnostics</a></li>
-                                <li><a href="/">Lube, Oil and Filters</a></li>
-                                <li><a href="/">Belts and Hoses</a></li>
-                                <li><a href="/">Air Conditioning</a></li>
-                                <li><a href="/">Brake Repair</a></li>
-                                <li><a href="/">Tire And Wheel</a></li>
+                                <li><a href="/service">SPRAY PAINTING</a></li>
+                                <li><a href="/service">VEHICLE TOWING</a></li>
+                                <li><a href="/service">VEHICLE DIAGNOSTICS</a></li>
+                               
                             </ul>
                         </div>
                     </div>

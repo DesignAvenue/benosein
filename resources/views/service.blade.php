@@ -6,9 +6,9 @@
         <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/template/images/main-slider/slide1.jpg);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
-                    <h1 class="text-white ">All Services</h1>
+                    <h1 class="text-white ">Services</h1>
 					<div class="dlab-separator bg-primary"></div>
-					<p class="text-white max-w800">There are many variations of passages of Lorem Ipsum typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					<p class="text-white max-w800"></p>
                 </div>
             </div>
         </div>
@@ -17,8 +17,8 @@
         <div class="breadcrumb-row">
             <div class="container">
                 <ul class="list-inline">
-                    <li><a href="#">Home</a></li>
-                    <li>All Services</li>
+                    <li><a href="/">Home</a></li>
+                    <li>Services</li>
                 </ul>
             </div>
         </div>
@@ -31,32 +31,26 @@
 					<div class="col-lg-3 col-md-4 col-sm-6">
 						
 						<div class="widget">
-							<h4 class="widget-title">Get your brochures</h4>
+							<h4 class="widget-title">Get Our Company Profile</h4>   
 							<div class="download-file">
 								<ul>
 									<li>
 										<a href="files/pdf-sample.pdf" target="_blank">
 											<span><i class="fa fa-file-pdf-o"></i></span>
-											<p class="file-name">Company Brochures</p>
+											<p class="file-name">Company Profile</p>
 											<i class="fa fa-download"></i>
 										</a>
 									</li>
-									<li>
-										<a href="files/pdf-sample.pdf" target="_blank">
-											<span><i class="fa fa-file-pdf-o"></i></span>
-											<p class="file-name">Company Info</p>
-											<i class="fa fa-download"></i>
-										</a>
-									</li>
+									
 								</ul>
 							</div>
 						</div>
 						<div class="widget  widget_getintuch">
 							<h4 class="widget-title">Contact us</h4>
 							<ul>
-								<li><i class="ti-location-pin"></i><strong>address</strong> demo address #8901 Marmora Road Chi Minh City, Vietnam </li>
-								<li><i class="ti-mobile"></i><strong>phone</strong>0800-123456 (24/7 Support Line)<br>
-									+ (20) 1234 0078 (Fax)</li>
+								<li><i class="ti-location-pin"></i><strong>address</strong> 204 Gravesend Road Willowvale, Harare Zimbabwe </li>
+								<li><i class="ti-mobile"></i><strong>phone</strong>(+263 ) 242 620 517/8 <br>(24/7 Support Line)
+									</li>
 							</ul>
 						</div>
 					</div>
@@ -67,9 +61,9 @@
                                     <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic1.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
                                         <h4 class="dlab-title m-t20"><a href="engine-diagnostics.html">
-                                            SPRAY PAINTING</a></h4>
-                                        <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
-                                        <a href="#" class="site-button">More</a> 
+                                            Panel beating and Spray Painting </a></h4>
+                                            <p class="text-center">We take pride in our state of the art panel beating and spray painting equipment. Our highly skilled employees coupled with our state of the art equipment ensure uniform high standards of workmanship. Our commercial spray booths are capable of containing both large and small vehicles and they are built to specifications compliant to the latest Safety & Health guidelines, suitable for the application of waterborne paint systems.</p>
+                                            
 									</div>
                                 </div>
                             </div>
@@ -77,9 +71,9 @@
                                 <div class="dlab-box">
                                     <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic2.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="lube-oil-and-filters.html">CHECK SUSPENSION</a></h4>
-                                        <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
-                                        <a href="#" class="site-button">More</a> 
+                                        <h4 class="dlab-title m-t20"><a href="#">Fleet Maintenance</a></h4>
+                                        <p class="text-center">We handle all maintenance needs for your fleet and ensure that your fleet is kept running smooth. We provide suspension checks, wheel alignment and checks, vehicle diagnosis and general vehicle maintenance.    </p>
+                                       
 									</div>
                                 </div>
                             </div>
@@ -87,40 +81,10 @@
                                 <div class="dlab-box">
                                 <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic3.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="belts-and-hoses.html">
-                                            WHEEL CHECKING</a></h4>
-                                        <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
-                                        <a href="#" class="site-button">More</a> 
-									</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 m-b30">
-                                <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic4.jpg')}}" alt=""></a> </div>
-                                    <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="air-conditioning.html">Air Conditioning</a></h4>
-                                        <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
-                                        <a href="#" class="site-button">More</a> 
-									</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 m-b30">
-                                <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic5.jpg')}}" alt=""></a> </div>
-                                    <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="brake-repair.html">Brake Repair </a></h4>
-                                        <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
-                                        <a href="#" class="site-button">More</a> 
-									</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 m-b30">
-                                <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic6.jpg')}}" alt=""></a> </div>
-                                    <div class="dlab-info">
-                                        <h4 class="dlab-title m-t20"><a href="tire-and-wheel-services.html">Tire and Wheel Services</a></h4>
-                                        <p>Lorem ipsum dolor consectetur adipiscing Fusce varius euismod lacus eget feugiat rorem ipsum dolor consectetur Fusce varius  </p>
-                                        <a href="#" class="site-button">More</a> 
+                                        <h4 class="dlab-title m-t20"><a href="/bentows">
+                                            Vehicle Towing <a href="/bentows">(BenTows)</a> </a></h4>
+                                            <p class="text-center">At the touch of a button, our towing team will be with you. We have a well-coordinated and responsive towing team and fleet to cater for you when your vehicle become immobile and needs towing.  Should your vehicle be involved in an accident and is immobile, should you need to be taken out of a ditch, should you need roadside assistance, we are there to assist you.  </p>
+                                        
 									</div>
                                 </div>
                             </div>

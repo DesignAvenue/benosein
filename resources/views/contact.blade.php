@@ -32,7 +32,7 @@
                         </div>
                     @endif
                         <div class="p-a30 bg-gray clearfix m-b30 ">
-							<h2>Send Message Us</h2>
+							<h2>Send Us A Message </h2>
 							<div class="dzFormMsg"></div>
 							<form method="POST" class="dzForm" action="{{ route("mail") }}">
 							@csrf
@@ -117,10 +117,8 @@
 							<div class="m-t20">
 								<ul class="dlab-social-icon dez-border dlab-social-icon-lg">
 									<li><a href="javascript:void(0);" class="fa fa-facebook bg-primary"></a></li>
-									<li><a href="javascript:void(0);" class="fa fa-twitter bg-primary"></a></li>
-									<li><a href="javascript:void(0);" class="fa fa-linkedin bg-primary"></a></li>
-									<li><a href="javascript:void(0);" class="fa fa-pinterest-p bg-primary"></a></li>
-									<li><a href="javascript:void(0);" class="fa fa-google-plus bg-primary"></a></li>
+									<li><a href="javascript:void(0);" class="fa fa-instagram bg-primary"></a></li>
+									
 								</ul>
 							</div>
                         </div>

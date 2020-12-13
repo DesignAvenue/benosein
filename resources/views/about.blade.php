@@ -5,7 +5,7 @@
         <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(template/images/background/bg4.jpg);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
-                    <h1 class="text-white">About Us 2</h1>
+                    <h1 class="text-white">About Us</h1>
                 </div>
             </div>
         </div>
@@ -14,8 +14,8 @@
         <div class="breadcrumb-row">
             <div class="container">
                 <ul class="list-inline">
-                    <li><a href="#">Home</a></li>
-                    <li>About Us 2</li>
+                    <li><a href="/">Home</a></li>
+                    <li>About Us </li>
                 </ul>
             </div>
         </div>
@@ -30,8 +30,7 @@
 							<div class="section-head text-left">
 								<h2 class="text-uppercase"> About  Company</h2>
 								<div class="aon-separator bg-primary"></div>
-								<p><strong>Benosien  Motors Private Limited is a well-established Zimbabwe company  specializing in panel beating, spray painting and vehicle servicing of all type. Over years  of operation, the company has managed to secure its market share due to its uncompromising excellent and unmatched service.
-                                    We understand that company succeed due to delivery and as such, we leave no room for any mistake in regards to delivery of excellent products and services.</strong></p>
+								<p><strong>Benosien Motors offers a one -stop auto body repair services. Our business scope covers from passenger vehicles to commercial vehicles .We have managed to provide services that have always satisfied our Customers due to well Advanced and modernized equipment used by well skilled personnel In our workshop.</strong></p>
 							</div>
 							<div class="row">
 								<div class="col-md-6 col-sm-6 col-lg-6">
@@ -105,8 +104,8 @@
                                 <div class="icon-lg m-b20">
                                     <div class="icon-cell text-white"> <i class="ti-home"></i> </div>
                                 </div>
-                                <div class="counter font-26 font-weight-800 text-primary m-b5">1035</div>
-                                <span>Completed Project</span> 
+                                <div class="counter font-26 font-weight-800 text-primary m-b5">2000</div>
+                                <span>Completed Projects</span> 
 							</div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
@@ -114,8 +113,8 @@
                                 <div class="icon-lg m-b20">
                                     <div class="icon-cell text-white"> <i class="ti-user"></i> </div>
                                 </div>
-                                <div class="counter font-26 font-weight-800 text-primary m-b5">1124</div>
-                                <span>Active Experts</span> 
+                                <div class="counter font-26 font-weight-800 text-primary m-b5">20</div>
+                                <span>satisfied Clients</span> 
 							</div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
@@ -123,7 +122,7 @@
                                 <div class="icon-lg m-b20">
                                     <div class="icon-cell text-white"> <i class="ti-user"></i> </div>
                                 </div>
-                                <div class="counter font-26 font-weight-800 text-primary m-b5">834</div>
+                                <div class="counter font-26 font-weight-800 text-primary m-b5">200</div>
                                 <span>Happy Clients</span> 
 							</div>
                         </div>
@@ -132,8 +131,8 @@
                                 <div class="icon-lg m-b20">
                                     <div class="icon-cell text-white"> <i class="ti-pie-chart"></i> </div>
                                 </div>
-                                <div class="counter font-26 font-weight-800 text-primary m-b5">538</div>
-                                <span>Developer Hand</span> 
+                                <div class="counter font-26 font-weight-800 text-primary m-b5">8</div>
+                                <span>Years Of Experience</span> 
 							</div>
                         </div>
                     </div>
@@ -146,7 +145,7 @@
                 <div class="container">
                     <div class="section-head text-white text-center">
                         <h2 class="text-uppercase">What peolpe are saying</h2>
-                        <span class="title-small">Best Cleaning Deals</span>
+                        <span class="title-small">Best Vehicle Service</span>
                         <div class="after-titile-line"></div>
                     </div>
                     <div class="section-content">
@@ -157,7 +156,7 @@
                                     <div class="testimonial-text">
                                         <p>There are many variations of passages of Lorem Ipsum typesetting industry has been the standard dummy text ever since the when printer. </p>
                                     </div>
-                                    <div class="testimonial-detail"> <strong class="testimonial-name">David Matin</strong> <span class="testimonial-position">Student</span> </div>
+                                    <div class="testimonial-detail"> <strong class="testimonial-name">Tapiwa Tererai</strong> <span class="testimonial-position">Student</span> </div>
                                     <div class="quote-right"></div>
                                 </div>
                             </div>

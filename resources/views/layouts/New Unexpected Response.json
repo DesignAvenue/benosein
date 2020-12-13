@@ -1,0 +1,589 @@
+{
+    "user":{
+       "id":7,
+       "name":"Francisco J Perez",
+       "firstName":"Francisco J",
+       "lastName":"Perez",
+       "emailAddress":"Francisco.Perez@bluenova.email",
+       "sessionGuid":null,
+       "connectIdentifier":"Q7JM4",
+       "roleTypes":[
+          
+       ]
+    },
+    "errorMessage":null,
+    "succeeded":true,
+    "hasError":false,
+    "payload":{
+       "modules":[
+          {
+             "name":"Account",
+             "description":"Access administrative features",
+             "moduleType":100,
+             "prerequisiteModules":[
+                
+             ],
+             "features":[
+                {
+                   "featureType":1000,
+                   "name":"Users",
+                   "description":"Create, update and remove user access to your Ciibo account",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":1000,
+                   "name":"General Setup",
+                   "description":"Configure general settings",
+                   "parentMenuName":"Setup",
+                   "id":0
+                },
+                {
+                   "featureType":1001,
+                   "name":"Peek at Data",
+                   "description":"Access the raw data as imported from various external systems",
+                   "parentMenuName":"Account",
+                   "id":0
+                },
+                {
+                   "featureType":43,
+                   "name":"Driver Troubleshooting",
+                   "description":"Research why a driver is not showing up in scores or on the weekly bonus report",
+                   "parentMenuName":"Reports",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                
+             ]
+          },
+          {
+             "name":"Employees",
+             "description":"Manage your employees",
+             "moduleType":2,
+             "prerequisiteModules":[
+                
+             ],
+             "features":[
+                {
+                   "featureType":2,
+                   "name":"Search",
+                   "description":"Search for employees by first name, last name, phone number or email address",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":3,
+                   "name":"Browse",
+                   "description":"View a list of employees",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":4,
+                   "name":"Matching Issues",
+                   "description":"Resolve matching issues resulting from external import processes",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":42,
+                   "name":"Connect",
+                   "description":"Send connect invitations to your drivers, and track use of the driver app",
+                   "parentMenuName":"Drivers",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                4
+             ]
+          },
+          {
+             "name":"Vehicles",
+             "description":"Manage your fleet",
+             "moduleType":1,
+             "prerequisiteModules":[
+                
+             ],
+             "features":[
+                {
+                   "featureType":20,
+                   "name":"Browse",
+                   "description":"View a list of vehicles",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":21,
+                   "name":"Search",
+                   "description":"Search for a specific vehicle by number, make/model or VIN #",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":23,
+                   "name":"Needing Attention",
+                   "description":"View a list of vehicles needing repair or maintenance work",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":22,
+                   "name":"Recent Damage",
+                   "description":"View the most recent damage recoreded by dispatch",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":24,
+                   "name":"Atributes",
+                   "description":"Create attributes that can be used ot match an employee with a type of vehicle",
+                   "parentMenuName":null,
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                12
+             ]
+          },
+          {
+             "name":"Scheduling",
+             "description":"Schedule employee work on a daily basis",
+             "moduleType":3,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":14,
+                   "name":"Schedule",
+                   "description":"Assign work to your employees",
+                   "parentMenuName":"Time",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                
+             ]
+          },
+          {
+             "name":"Communications",
+             "description":"Communicate with employees using the Ciibo mobile app by posting to feeds, creating individual and group chats, and providing access to documents online",
+             "moduleType":4,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":14,
+                   "name":"Feeds",
+                   "description":"Post to a central feed with optional comments by your employees",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":39,
+                   "name":"Chats",
+                   "description":"Hold individual or group chats in real-time",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":39,
+                   "name":"Resources",
+                   "description":"Upload documents that employees can access through the mobile app",
+                   "parentMenuName":null,
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                13
+             ]
+          },
+          {
+             "name":"Resources",
+             "description":"Track all routes at your station and automatically send picksheets to your drivers via the mobile app",
+             "moduleType":5,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":5,
+                   "name":"Route Assignments",
+                   "description":"Upload a PDF picksheet provided by your station, and view routes for all DSPs at your station",
+                   "parentMenuName":"Operations",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                14
+             ]
+          },
+          {
+             "name":"Hours",
+             "description":"Find incorrect time punches by your drivers and monitor potential overtime",
+             "moduleType":6,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":12,
+                   "name":"Driver Punches",
+                   "description":"View a list of driver time punches",
+                   "parentMenuName":"Time",
+                   "id":0
+                },
+                {
+                   "featureType":13,
+                   "name":"Compare Dispatch to Drivers",
+                   "description":"Compare hours recorded by dispatch to time punches as recorded by your drivers",
+                   "parentMenuName":"Reports",
+                   "id":0
+                },
+                {
+                   "featureType":15,
+                   "name":"Overtime",
+                   "description":"View a list of drivers who are in danger of hitting overtime this week",
+                   "parentMenuName":"Reports",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                5,
+                6
+             ]
+          },
+          {
+             "name":"Score",
+             "description":"Collate data from Amazon, Mentor, payroll and your dispatch processes into a single score to show who your best drivers really are",
+             "moduleType":7,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":6,
+                   "name":"Scores",
+                   "description":"View a list of driver time punches",
+                   "parentMenuName":"Drivers",
+                   "id":0
+                },
+                {
+                   "featureType":9,
+                   "name":"Infractions",
+                   "description":"View a list of driver time punches",
+                   "parentMenuName":"Drivers",
+                   "id":0
+                },
+                {
+                   "featureType":37,
+                   "name":"Score",
+                   "description":"Define category weights and how bonuses are calculated based upon the score",
+                   "parentMenuName":"Setup",
+                   "id":0
+                },
+                {
+                   "featureType":11,
+                   "name":"Recorded by Dispatch",
+                   "description":"Record hours, no-shows, damage, and rescues to be used when calculating a driver's score",
+                   "parentMenuName":"Time",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                7,
+                8,
+                10,
+                11
+             ]
+          },
+          {
+             "name":"Pipeline",
+             "description":"Easily track and communicate with potential candidates and new hires as eahc progresses through the interviewing and onboarding process",
+             "moduleType":8,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":17,
+                   "name":"Manage Candidates",
+                   "description":"Add and view candidates as each progresses thorugh the onboarding process",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":18,
+                   "name":"Forecast",
+                   "description":"By manipulating levers, determine the number and dates of hires you will need to make to meet your route commitments",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":19,
+                   "name":"Pipeline Messaging",
+                   "description":"Shape the text and email messages you wish to automatcially send to pipeline candidates during the interviewing and onboarding processes",
+                   "parentMenuName":"Setup",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                15
+             ]
+          },
+          {
+             "name":"Teams",
+             "description":"Group your drivers into teams to drive morale and performance improvements",
+             "moduleType":9,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":17,
+                   "name":"Teams",
+                   "description":"Add and manage teams",
+                   "parentMenuName":"Drivers",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                
+             ]
+          },
+          {
+             "name":"Scorecards",
+             "description":"View a detailed analysis of the current scorecard (last week's), and review recommendations for changes that will increase the current week's score before it comes out",
+             "moduleType":10,
+             "prerequisiteModules":[
+                2
+             ],
+             "features":[
+                {
+                   "featureType":33,
+                   "name":"Current Scorecard",
+                   "description":"View a detailed analysis of the last scorecard to determine the biggest bang for your buck when deciding which issue(s) to focus on",
+                   "parentMenuName":"Financial",
+                   "id":0
+                },
+                {
+                   "featureType":34,
+                   "name":"Upcoming Scorecard",
+                   "description":"Review changes you need to make now to ensure a Fantastic Plus score on your upcoming scorecard (for this week)",
+                   "parentMenuName":"Financial",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                2,
+                3
+             ]
+          },
+          {
+             "name":"Real-Time",
+             "description":"Run your daily operations online in real-time, receive a daily review of yesterday's operational successes and issues needing attention, and move levers to forecast future commitment capacity based on drivers and vehicles",
+             "moduleType":11,
+             "prerequisiteModules":[
+                3
+             ],
+             "features":[
+                {
+                   "featureType":25,
+                   "name":"Delivery",
+                   "description":"Track real-time delivery status throughout the various phases of your daily operations",
+                   "parentMenuName":"Operations",
+                   "id":0
+                },
+                {
+                   "featureType":41,
+                   "name":"Driver Assignments",
+                   "description":"A quick view of each driver carrying out a route, along with the route # and assigned vehicle",
+                   "parentMenuName":"Reports",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                16
+             ]
+          },
+          {
+             "name":"Time-Off",
+             "description":"Allow employees to submit time-off requests with an approve/reject/forward for approval capability",
+             "moduleType":12,
+             "prerequisiteModules":[
+                3
+             ],
+             "features":[
+                {
+                   "featureType":16,
+                   "name":"Time-Off Requests",
+                   "description":"Approve or reject employee time-off requests",
+                   "parentMenuName":"Time",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                17
+             ]
+          },
+          {
+             "name":"Bonuses",
+             "description":"Automatically calculate driver bonuses based on thier score and rescues",
+             "moduleType":13,
+             "prerequisiteModules":[
+                7
+             ],
+             "features":[
+                {
+                   "featureType":7,
+                   "name":"Bonuses",
+                   "description":"View a total bonus report for all drivers by week",
+                   "parentMenuName":"Drivers",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                9
+             ]
+          },
+          {
+             "name":"Driver 360",
+             "description":"Record performance discussions for each employee and view a driver's historic performance in a single comprehensive view",
+             "moduleType":14,
+             "prerequisiteModules":[
+                7
+             ],
+             "features":[
+                {
+                   "featureType":16,
+                   "name":"Discussions",
+                   "description":"Create a permanent record of employee performance issues that can be used to make termination decisions later",
+                   "parentMenuName":"Employees",
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                18
+             ]
+          },
+          {
+             "name":"Financial",
+             "description":"Analyzes Amazon invoices for accuracy and problems, provides highlights of areas needing attention, and provides financial forecasts based on current and future route commitments and overhead costs",
+             "moduleType":15,
+             "prerequisiteModules":[
+                11,
+                1
+             ],
+             "features":[
+                {
+                   "featureType":29,
+                   "name":"Invoices",
+                   "description":"Provides recommended actions and possible disputes by analyzing Amazon invoices for accuracy as compared to Ciibo's record of executed routes, number of shipments, authorized vans and peak payments",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":30,
+                   "name":"Overview",
+                   "description":"Provides a daily and weekly overview of the financial health of your company, including estimated profit/loss summaries",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":31,
+                   "name":"Needing Attention",
+                   "description":"View recommended changes to your operations that can significantly increase your bottom line",
+                   "parentMenuName":null,
+                   "id":0
+                },
+                {
+                   "featureType":32,
+                   "name":"Forecast",
+                   "description":"Move levers to forecast revenue based on upcoming route commitments, fleet levels, driver capacity, employee pay, and other cost factors",
+                   "parentMenuName":null,
+                   "id":0
+                }
+             ],
+             "widgetTypes":[
+                1
+             ]
+          }
+       ],
+       "moduleTypes":[
+          100,
+          2,
+          7,
+          13,
+          6,
+          3,
+          5,
+          11,
+          14
+       ],
+       "featureTypes":[
+          1000,
+          1001,
+          43,
+          2,
+          3,
+          4,
+          42,
+          20,
+          21,
+          23,
+          22,
+          24,
+          14,
+          39,
+          5,
+          12,
+          13,
+          15,
+          6,
+          9,
+          37,
+          11,
+          17,
+          18,
+          19,
+          33,
+          34,
+          25,
+          41,
+          16,
+          7,
+          29,
+          30,
+          31,
+          32
+       ],
+       "widgetTypes":[
+          4,
+          12,
+          13,
+          14,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          15,
+          2,
+          3,
+          16,
+          17,
+          9,
+          18,
+          1
+       ],
+       "dspName":"Blue Nova",
+       "amazonShortCode":"NOVA",
+       "serviceArea":"9ea0513e-8566-4e5e-b78c-a7c34ae5deb5",
+       "stationIdentifier":"DDA2",
+       "sessionGuid":"31cb4131-24d5-4c79-832b-12afcfe6e86d",
+       "release":"115"
+    }
+ }
