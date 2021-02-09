@@ -8,7 +8,7 @@
                     <span class="text-secondry font-16">Benosien Motors</span>
                     <div class="clear"></div>
                 </div>
-                <p class="m-b30">offers a one -stop auto body repair services. Our business scope covers from passenger vehicles to commercial vehicles .We have managed to provide services that have always satisfied our Customers due to well Advanced and modernized equipment used by well skilled personnel In our workshop.</p>
+                <p class="m-b30">Offers a one -stop auto body repair services. Our business scope covers from passenger vehicles to commercial vehicles .We have managed to provide services that have always satisfied our Customers due to well Advanced and modernized equipment used by well skilled personnel In our workshop.</p>
                 <div class="row">
                     <div class="col-md-4 col-lg-4 col-sm-4 m-b15">
                         <div class="icon-bx-wraper bx-style-1 p-tb15 p-lr10 center">

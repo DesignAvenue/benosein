@@ -54,10 +54,8 @@
                     <div class="dlab-topbar-left"> </div>
                     <div class="dlab-topbar-right">
                         <ul class="social-bx list-inline pull-right">
-                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-google-plus"></a></li>
+                            <li><a href="https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fwww.facebook.com%2Fbenosien" class="fa fa-facebook"></a></li>
+                            <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -103,15 +101,20 @@
                                 <li> <a href="/about">About</a> </li>
                                 @endif
                                 @if (Route::current()->getName() == "service")
-                            <li class="active"> <a href="/service">Service</a></li>
+                            <li class="active"> <a href="/service">Services</a></li>
                                 @else
-                                <li> <a href="/service">Service</a> </li>
+                                <li> <a href="/service">Services</a> </li>
                                 @endif
                                 @if (Route::current()->getName() == "ourwork")
                             <li class="active"> <a href="/ourwork">Our Work</a></li>
                             @else
                                 <li> <a href="/ourwork">Our Work</a> </li>
                              @endif
+                             @if (Route::current()->getName() == "team")
+                             <li class="active"> <a href="/team">OurTeam</a></li>
+                             @else
+                                 <li> <a href="/team">OurTeam</a> </li>
+                              @endif
                              @if (Route::current()->getName() == "contact")
                             <li class="active"> <a href="/contact">Contact Us</a></li>
                             @else
@@ -143,7 +146,7 @@
                             <p><strong>Benosien Motors</strong> offers a one stop auto body repair services. Our business scope covers from passenger vehicles to commercial vehicles .We have managed to provide services that have always satisfied our Customers due to well Advanced and modernized equipment used by well skilled personnel In our workshop</p>
                             <ul class="dlab-social-icon dez-border">
                                 <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
+                                <li><a class="fa fa-facebook" href="https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fwww.facebook.com%2Fbenosien"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -154,48 +157,24 @@
                                 <div class="dlab-separator bg-white style-skew"></div>
                             </div>
                             <div class="widget-post-bx">
+                                @foreach ($works as $work)
                                 <div class="widget-post clearfix">
-                                <div class="dlab-post-media"> <img src="{{asset('template/images/blog/recent-blog/pic1.jpg')}}" alt="" width="200" height="143"> </div>
+                                <div class="dlab-post-media"> <img src="storage\{{$work->image_path}}" alt="" width="200" height="143"> </div>
                                     <div class="dlab-post-info">
                                         <div class="dlab-post-header">
-                                            <h6 class="post-title text-uppercase"><a href="/">Title of first blog</a></h6>
+                                            <h6 class="post-title text-uppercase"><a href="/ourwork">{{$work->title}}</a></h6>
                                         </div>
                                         <div class="dlab-post-meta">
                                             <ul>
-                                                <li class="post-author">By <a href="#">Admin</a></li>
+                                                <li class="post-author">By <a href="ourwork">Admin</a></li>
                                                 <li class="post-comment"><i class="fa fa-comments-o"></i> 28</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="widget-post clearfix">
-                                    <div class="dlab-post-media"> <img src="{{asset('template/images/blog/recent-blog/pic2.jpg')}}" alt="" width="200" height="160"> </div>
-                                    <div class="dlab-post-info">
-                                        <div class="dlab-post-header">
-                                            <h6 class="post-title text-uppercase"><a href="/">Title of first blog</a></h6>
-                                        </div>
-                                        <div class="dlab-post-meta">
-                                            <ul>
-                                                <li class="post-author">By <a href="#">Admin</a></li>
-                                                <li class="post-comment"><i class="fa fa-comments-o"></i> 28</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="widget-post clearfix">
-                                    <div class="dlab-post-media"> <img src="{{asset('template/images/blog/recent-blog/pic3.jpg')}}" alt="" width="200" height="160"> </div>
-                                    <div class="dlab-post-info">
-                                        <div class="dlab-post-header">
-                                            <h6 class="post-title  text-uppercase"><a href="/">Title of first blog</a></h6>
-                                        </div>
-                                        <div class="dlab-post-meta">
-                                            <ul>
-                                                <li class="post-author">By <a href="#">Admin</a></li>
-                                                <li class="post-comment"><i class="fa fa-comments-o"></i> 28</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
+                              
+ 
                             </div>
                         </div>
                     </div>
@@ -206,7 +185,7 @@
                                 <div class="dlab-separator bg-white style-skew"></div>
                             </div>
                             <ul>
-                                <li><a href="/service">SPRAY PAINTING</a></li>
+                                <li><a href="/service">SPRAY PAINTING & PANEL BEATING</a></li>
                                 <li><a href="/service">VEHICLE TOWING</a></li>
                                 <li><a href="/service">VEHICLE DIAGNOSTICS</a></li>
                                

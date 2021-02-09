@@ -28,6 +28,10 @@ class PagesController extends Controller
         return view('news');
     }
 
+    public function team(){
+        return view('team');
+    }
+
     public function mail(Request $request){
 
         $data = $request->validate([

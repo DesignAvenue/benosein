@@ -14,7 +14,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 m-t20">
-								<a href="/contact" class="site-button-secondry button-skew m-l10">
+								<a href="tel:0773800076" class="site-button-secondry button-skew m-l10">
 								<span>Call Now!</span><i class="fa fa-angle-right"></i></a>
 								<a href="/bentows" class="site-button-secondry button-skew m-l20">
 								<span>Ben-Tows</span><i class="fa fa-angle-right"></i></a>

@@ -21,6 +21,7 @@ Route::get('/', function () {
 });
 
 Route::get('about',[PagesController::class, 'about'])->name("about");
+Route::get('team',[PagesController::class, 'team'])->name("team");
 Route::get('bentows',[PagesController::class, 'bentows'])->name("bentows");
 Route::get('service',[PagesController::class, 'service'])->name("service");
 Route::get('contact',[PagesController::class, 'contact'])->name("contact");

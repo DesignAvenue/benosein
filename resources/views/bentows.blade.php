@@ -53,7 +53,7 @@
             <div class="dlab-bnr-inr-entry">
                 <h1 class="text-white">Ben Tows</h1>
                 <div class="dlab-separator bg-primary"></div>
-                <p class="text-white max-w800">To become the trusted service deliverer in towing and roadside assistance services of all times.</p>
+                <p class="text-white max-w800">The trusted towing and roadside assistance services of all times.</p>
             </div>
         </div>
     </div>
