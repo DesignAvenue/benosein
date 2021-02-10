@@ -3,7 +3,7 @@
       <!-- Content -->
   
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/template/images/background/bg4.jpg);">
+        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/images/banner/contact.jpg);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
                     <h1 class="text-white">Contact Us</h1>

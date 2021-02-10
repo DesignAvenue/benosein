@@ -43,7 +43,7 @@
                 <a href="/about" class="site-button">Read More</a>
             </div>
             <div class="col-lg-5 about-img">
-            <img src="{{asset('template/images/img2.jpg')}}" alt=""/>
+            <img src="{{asset('/images/banner/img2.jpg')}}" alt=""/>
             </div>
         </div>
     </div>

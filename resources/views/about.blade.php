@@ -2,7 +2,7 @@
 @section('content')
     <!-- Content -->
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(template/images/background/bg4.jpg);">
+        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/images/banner/about.jpg);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
                     <h1 class="text-white">About Us</h1>
@@ -96,7 +96,7 @@
             </div>
 			<!-- About Company END -->
             <!-- counter -->
-            <div class="section-full aon-our-services bg-gray bg-img-fix content-inner overlay-black-middle" style="background-image:url(template/images/background/bg2.jpg);">
+            <div class="section-full aon-our-services bg-gray bg-img-fix content-inner overlay-black-middle" style="background-image:url(/images/banner/about3.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
@@ -141,7 +141,7 @@
             <!-- Counter END-->
           
             <!-- What peolpe are saying -->
-            <div class="section-full overlay-black-middle bg-img-fix content-inner-1" style="background-image:url(template/images/background/bg4.jpg);">
+            <div class="section-full overlay-black-middle bg-img-fix content-inner-1" style="background-image:url(/images/banner/about2.jpg);">
                 <div class="container">
                     <div class="section-head text-white text-center">
                         <h2 class="text-uppercase">What peolpe are saying</h2>

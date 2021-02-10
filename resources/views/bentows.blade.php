@@ -7,20 +7,19 @@
             <div class="project-carousel owl-carousel">
               <div class="item">
                 <div class="project-box">
-                  <img src="{{asset('template/images/project/pic1.jpg')}}" alt="">
+                  <img src="{{asset('/images/tors/img1.jpg')}}" alt="">
                   <div class="project-info">
                     <div class="pagination">
                       <span>01</span>/ 03
                     </div>
                     <h2 class="title"><a href="#">Mechanical Engineering</a></h4>
                     <p class="sub-title">Technical Mechanic Work</p>
-               
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="project-box">
-                  <img src="{{asset('template/images/project/pic2.jpg')}}" alt="">
+                  <img src="{{asset('/images/tors/img2.jpg')}}" alt="">
                   <div class="project-info">
                     <div class="pagination">
                       <span>02</span>/03
@@ -33,7 +32,7 @@
               </div>
               <div class="item">
                 <div class="project-box">
-                  <img src="{{asset('template/images/project/pic3.jpg')}}" alt="">
+                  <img src="{{asset('/images/tors/img3.jpg')}}" alt="">
                   <div class="project-info">
                     <div class="pagination">
                       <span>03</span>/03
@@ -48,7 +47,7 @@
           </div>
         </div>
     <!-- inner page banner -->
-    <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(template/images/background/bg9.jpg);">
+    <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/images/tors/img4.jpg);">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
                 <h1 class="text-white">Ben Tows</h1>
@@ -82,7 +81,7 @@
                 <div class="portfolio-carousel owl-carousel mfp-gallery gallery owl-btn-center-lr">
                     <div class="item">
                         <div class="ow-portfolio">
-                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('template/images/our-work/pic1.jpg')}}"  alt="">
+                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('/images/tors/tor1.jpg')}}"  alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon"> 
                                         <a href="template/images/our-work/pic1.jpg" class="mfp-link" title="Title Come Here">
@@ -96,7 +95,7 @@
                     </div>
                     <div class="item">
                         <div class="ow-portfolio">
-                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('template/images/our-work/pic2.jpg')}}" alt="">
+                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('/images/tors/tor2.jpg')}}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
                                         <a href="template/images/our-work/pic2.jpg" class="mfp-link" title="Title Come Here">
@@ -110,7 +109,7 @@
                     </div>
                     <div class="item">
                         <div class="ow-portfolio">
-                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('template/images/our-work/pic3.jpg')}}" alt="">
+                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('/images/tors/tor3.jpg')}}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon"> 
                                         <a href="template/images/our-work/pic3.jpg" class="mfp-link" title="Title Come Here">
@@ -124,7 +123,7 @@
                     </div>
                     <div class="item">
                         <div class="ow-portfolio">
-                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('template/images/our-work/pic4.jpg')}}" alt="">
+                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('/images/tors/tor4.jpg')}}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon"> 
                                         <a href="template/images/our-work/pic4.jpg" class="mfp-link" title="Title Come Here">
@@ -138,7 +137,7 @@
                     </div>
                     <div class="item">
                         <div class="ow-portfolio">
-                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('template/images/our-work/pic5.jpg')}}" alt="">
+                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('/images/tors/tor1.jpg')}}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon"> 
                                         <a href="template/images/our-work/pic5.jpg" class="mfp-link" title="Title Come Here">
@@ -152,7 +151,7 @@
                     </div>
                     <div class="item">
                         <div class="ow-portfolio">
-                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('template/images/our-work/pic6.jpg')}}" alt="">
+                            <div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="{{asset('/images/tors/tor1.jpg')}}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
                                         <a href="template/images/our-work/pic6.jpg" class="mfp-link" title="Title Come Here">
@@ -179,7 +178,7 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 m-b30">
 						<div class="service-style2">
 							<div class="dlab-media"> 
-								<img src="{{asset('template/images/our-services/pic1.jpg')}}" alt=""> 
+								<img src="{{asset('/images/tors/tor5.jpg')}}" alt=""> 
 							</div>
 							<div class="icon-content">
 								<h3 class="dlab-tilte m-b15"><a href="#">LIGHT & HEAVY
@@ -192,7 +191,7 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 m-b30">
 						<div class="service-style2">
 							<div class="dlab-media"> 
-								<img src="{{asset('template/images/our-services/pic2.jpg')}}" alt=""> 
+								<img src="{{asset('/images/tors/tor6.jpg')}}" alt=""> 
 							</div>
 							<div class="icon-content">
 								<h3 class="dlab-tilte m-b15"><a href="#">WINCH-OUT
@@ -205,7 +204,7 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 m-b30">
 						<div class="service-style2">
 							<div class="dlab-media"> 
-								<img src="{{asset('template/images/our-services/pic3.jpg')}}" alt=""> 
+								<img src="{{asset('/images/tors/tor7.jpg')}}" alt=""> 
 							</div>
 							<div class="icon-content">
 								<h3 class="dlab-tilte m-b15"><a href="#">ROADSIDE ASSISTANCE</a></h3>
@@ -217,7 +216,7 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 m-b30">
 						<div class="service-style2">
 							<div class="dlab-media"> 
-								<img src="{{asset('template/images/our-services/pic4.jpg')}}" alt=""> 
+								<img src="{{asset('/images/tors/tor8.jpg')}}" alt=""> 
 							</div>
 							<div class="icon-content">
 								<h3 class="dlab-tilte m-b15"><a href="#">FLATBED TOWING</a></h3>

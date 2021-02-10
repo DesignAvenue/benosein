@@ -2,7 +2,7 @@
 @section('content')
     <!-- Content -->
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(template/images/banner/bnr1.jpg);">
+        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/images/banner/team.jpg);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
                     <h1 class="text-white">Meet Our Team</h1>

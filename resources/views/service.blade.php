@@ -3,7 +3,7 @@
      <!-- Content -->
      <div class="page-content">
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/template/images/main-slider/slide1.jpg);">
+        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/images/banner/services.jpg);">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
                     <h1 class="text-white ">Services</h1>
@@ -58,7 +58,7 @@
 						<div class="row">
                             <div class="col-lg-4 col-md-6 m-b30">
                                 <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic1.jpg')}}" alt=""></a> </div>
+                                    <div class="dlab-media"> <a href="#"><img src="{{asset('/images/our-work/pic1.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
                                         <h4 class="dlab-title m-t20"><a href="engine-diagnostics.html">
                                             Panel beating and Spray Painting </a></h4>
@@ -69,7 +69,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 m-b30">
                                 <div class="dlab-box">
-                                    <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic2.jpg')}}" alt=""></a> </div>
+                                    <div class="dlab-media"> <a href="#"><img src="{{asset('/images/our-work/fleet.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
                                         <h4 class="dlab-title m-t20"><a href="#">Fleet Maintenance</a></h4>
                                         <p class="text-center">We handle all maintenance needs for your fleet and ensure that your fleet is kept running smooth. We provide suspension checks, wheel alignment and checks, vehicle diagnosis and general vehicle maintenance.    </p>
@@ -79,7 +79,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 m-b30">
                                 <div class="dlab-box">
-                                <div class="dlab-media"> <a href="#"><img src="{{asset('template/images/our-work/pic3.jpg')}}" alt=""></a> </div>
+                                <div class="dlab-media"> <a href="#"><img src="{{asset('/images/our-work/pic2.jpg')}}" alt=""></a> </div>
                                     <div class="dlab-info">
                                         <h4 class="dlab-title m-t20"><a href="/bentows">
                                             Vehicle Towing <a href="/bentows">(BenTows)</a> </a></h4>
