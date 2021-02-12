@@ -7,25 +7,25 @@
             <div class="project-carousel owl-carousel">
               <div class="item">
                 <div class="project-box">
-                  <img src="{{asset('/images/tors/img1.jpg')}}" alt="">
+                  <img src="{{asset('/images/bentows/1.jpg')}}" alt="">
                   <div class="project-info">
                     <div class="pagination">
                       <span>01</span>/ 03
                     </div>
-                    <h2 class="title"><a href="#">Mechanical Engineering</a></h4>
-                    <p class="sub-title">Technical Mechanic Work</p>
+                    <h2 class="title"><a href="#">BenTows</a></h4>
+                    <p class="sub-title"></p>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="project-box">
-                  <img src="{{asset('/images/tors/img2.jpg')}}" alt="">
+                  <img src="{{asset('/images/bentows/5.jpg')}}" alt="">
                   <div class="project-info">
                     <div class="pagination">
                       <span>02</span>/03
                     </div>
-                    <h2 class="title"><a href="#">Mechanical Engineering</a></h4>
-                    <p class="sub-title">Technical Mechanic Work</p>
+                    <h2 class="title"><a href="#">BenTows</a></h4>
+                    <p class="sub-title"></p>
                  
                   </div>
                 </div>
@@ -37,8 +37,8 @@
                     <div class="pagination">
                       <span>03</span>/03
                     </div>
-                    <h2 class="title"><a href="#">Mechanical Engineering</a></h4>
-                    <p class="sub-title">Technical Mechanic Work</p>
+                    <h2 class="title"><a href="#">BenTows</a></h4>
+                    <p class="sub-title"></p>
                
                   </div>
                 </div>
@@ -47,15 +47,7 @@
           </div>
         </div>
     <!-- inner page banner -->
-    <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url(/images/tors/img4.jpg);">
-        <div class="container">
-            <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">Ben Tows</h1>
-                <div class="dlab-separator bg-primary"></div>
-                <p class="text-white max-w800">The trusted towing and roadside assistance services of all times.</p>
-            </div>
-        </div>
-    </div>
+   
     <!-- inner page banner END -->
     <!-- Breadcrumb row -->
     <div class="breadcrumb-row">
@@ -191,7 +183,7 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 m-b30">
 						<div class="service-style2">
 							<div class="dlab-media"> 
-								<img src="{{asset('/images/tors/tor6.jpg')}}" alt=""> 
+								<img src="{{asset('/images/tors/winch.jpg')}}" alt=""> 
 							</div>
 							<div class="icon-content">
 								<h3 class="dlab-tilte m-b15"><a href="#">WINCH-OUT
@@ -204,7 +196,7 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 m-b30">
 						<div class="service-style2">
 							<div class="dlab-media"> 
-								<img src="{{asset('/images/tors/tor7.jpg')}}" alt=""> 
+								<img src="{{asset('/images/tors/roadside.jpg')}}" alt=""> 
 							</div>
 							<div class="icon-content">
 								<h3 class="dlab-tilte m-b15"><a href="#">ROADSIDE ASSISTANCE</a></h3>
