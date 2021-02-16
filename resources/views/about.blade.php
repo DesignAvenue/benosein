@@ -144,7 +144,7 @@
             <div class="section-full overlay-black-middle bg-img-fix content-inner-1" style="background-image:url(/images/banner/about2.jpg);">
                 <div class="container">
                     <div class="section-head text-white text-center">
-                        <h2 class="text-uppercase">What peolpe are saying</h2>
+                        <h2 class="text-uppercase">What people are saying</h2>
                         <span class="title-small">Best Vehicle Service</span>
                         <div class="after-titile-line"></div>
                     </div>
@@ -154,7 +154,7 @@
                                 <div class="testimonial-4 style-2">
                                     <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
                                     <div class="testimonial-text">
-                                        <p>There are many variations of passages of Lorem Ipsum typesetting industry has been the standard dummy text ever since the when printer. </p>
+                                        <p>These guys offer the best service in town </p>
                                     </div>
                                     <div class="testimonial-detail"> <strong class="testimonial-name">Tapiwa Tererai</strong> <span class="testimonial-position">Student</span> </div>
                                     <div class="quote-right"></div>
@@ -164,9 +164,9 @@
                                 <div class="testimonial-4 style-2">
                                     <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
                                     <div class="testimonial-text">
-                                        <p>There are many variations of passages of Lorem Ipsum typesetting industry has been the standard dummy text ever since the when printer. </p>
+                                        <p>Thank you guys for helping me tow my vehicle i was stuck  </p>
                                     </div>
-                                    <div class="testimonial-detail"> <strong class="testimonial-name">David Matin</strong> <span class="testimonial-position">Student</span> </div>
+                                    <div class="testimonial-detail"> <strong class="testimonial-name">David Karombe</strong> <span class="testimonial-position">Student</span> </div>
                                     <div class="quote-right"></div>
                                 </div>
                             </div>
@@ -174,9 +174,9 @@
                                 <div class="testimonial-4 style-2">
                                     <div class="testimonial-pic"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
                                     <div class="testimonial-text">
-                                        <p>There are many variations of passages of Lorem Ipsum typesetting industry has been the standard dummy text ever since the when printer. </p>
+                                        <p>BenTowns is a go to option</p>
                                     </div>
-                                    <div class="testimonial-detail"> <strong class="testimonial-name">David Matin</strong> <span class="testimonial-position">Student</span> </div>
+                                    <div class="testimonial-detail"> <strong class="testimonial-name">Tinashe Kadiki</strong> <span class="testimonial-position">Student</span> </div>
                                     <div class="quote-right"></div>
                                 </div>
                             </div>

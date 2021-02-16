@@ -30,7 +30,7 @@
 							
 							<div class="col-md-4 ">
 								<div class="dlab-box m-b30">
-									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('template/images/our-team/pic2.jpg')}}"> </a>
+									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic2.jpg')}}"> </a>
 										<div class="dlab-info-has skew-has bg-primary">
 											<ul class="dlab-social-icon dez-border">
 												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
@@ -66,7 +66,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="dlab-box m-b10">
-									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('template/images/our-team/pic4.jpg')}}"> </a>
+									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic4.jpg')}}"> </a>
 										<div class="dlab-info-has skew-has bg-primary">
 											<ul class="dlab-social-icon dez-border">
 												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
@@ -84,7 +84,7 @@
 							</div>
 							<div class=" col-md-6 ">
 								<div class="dlab-box m-b30">
-									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('template/images/our-team/pic5.jpg')}}"> </a>
+									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic5.jpg')}}"> </a>
 										
 									</div>
 									
@@ -93,7 +93,7 @@
 						
 							<div class=" col-md-6 ">
 								<div class="dlab-box m-b30">
-									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('template/images/our-team/pic6.jpg')}}"> </a>
+									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic6.jpg')}}"> </a>
 									
 									</div>
 								</div>

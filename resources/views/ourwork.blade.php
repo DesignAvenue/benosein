@@ -23,6 +23,21 @@
     <div class="content-area">
         <div class="container">
             <!-- Blog half image -->
+        <div class="text text-align-center"><center>
+            <video width="320" height="240" controls autoplay>
+                <source src="{{asset('images/vid1.mp4')}}" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+              </center>
+        </div>
+        <br>
+        <div class="text text-align-center"><center>
+            <video width="320" height="240" controls autoplay>
+                <source src="{{asset('images/vid2.mp4')}}" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+              </center>
+        </div>
             @foreach ($work as $work )
             <div class="blog-post blog-md clearfix date-style-2">
             <div class="dlab-post-media dlab-img-effect zoom-slow"> <a href="#"><img src="storage\{{$work->image_path}}" alt=""></a> </div>
