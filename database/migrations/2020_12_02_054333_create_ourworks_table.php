@@ -18,6 +18,7 @@ class CreateOurworksTable extends Migration
             $table->string('title');
             $table->string('image_path');
             $table->text('description');
+            $table->string('type');
             $table->timestamps();
         });
     }

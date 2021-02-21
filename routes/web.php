@@ -27,7 +27,3 @@ Route::get('service',[PagesController::class, 'service'])->name("service");
 Route::get('contact',[PagesController::class, 'contact'])->name("contact");
 Route::get('ourwork',[PagesController::class, 'ourwork'])->name("ourwork");
 Route::post('contact',[PagesController::class, 'mail'])->name("mail");
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});

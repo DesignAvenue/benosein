@@ -31,17 +31,10 @@
 							<div class="col-md-4 ">
 								<div class="dlab-box m-b30">
 									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic2.jpg')}}"> </a>
-										<div class="dlab-info-has skew-has bg-primary">
-											<ul class="dlab-social-icon dez-border">
-												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-											</ul>
-										</div>
+										
 									</div>
 									<div class="p-a10">
-										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Mr Kamunhu</a></h4>
+										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Sales and Marketing Executive</a></h4>
 										<span class="dlab-member-position"></span> 
 									</div>
 								</div>
@@ -50,16 +43,11 @@
 								<div class="dlab-box m-b30">
 									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('template/images/our-team/pic3.jpg')}}"> </a>
 										<div class="dlab-info-has skew-has bg-primary">
-											<ul class="dlab-social-icon dez-border">
-												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-											</ul>
+											
 										</div>
 									</div>
 									<div class="p-a10 bg-white">
-										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Mrs Kamunhu</a></h4>
+										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Operations Executive</a></h4>
 										<span class="dlab-member-position"></span> 
 									</div>
 								</div>
@@ -67,17 +55,10 @@
 							<div class="col-md-4">
 								<div class="dlab-box m-b10">
 									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic4.jpg')}}"> </a>
-										<div class="dlab-info-has skew-has bg-primary">
-											<ul class="dlab-social-icon dez-border">
-												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
-												<li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-											</ul>
-										</div>
+										
 									</div>
 									<div class="p-a10">
-										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Customer Officer</a></h4>
+										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Customer Liaison Officer</a></h4>
 										<span class="dlab-member-position"></span> 
 									</div>
 								</div>
@@ -87,6 +68,10 @@
 									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic5.jpg')}}"> </a>
 										
 									</div>
+									<div class="p-a10">
+										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Sales & AdminTeam</a></h4>
+										<span class="dlab-member-position"></span> 
+									</div>
 									
 								</div>
 							</div>
@@ -95,6 +80,10 @@
 								<div class="dlab-box m-b30">
 									<div class="dlab-media"> <a href="javascript:;"> <img width="358" height="460" alt="" src="{{asset('/template/images/our-team/pic6.jpg')}}"> </a>
 									
+									</div>
+									<div class="p-a10">
+										<h4 class="dlab-title text-uppercase m-b5"><a href="javascript:;">Operations Team</a></h4>
+										<span class="dlab-member-position"></span> 
 									</div>
 								</div>
 							</div>
